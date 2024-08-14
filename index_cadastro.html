@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style-formulary.css">
+    <title>Freijó Music</title>
+
+</head>
+<body>
+    
+    <header>
+        <div class="logomobile">
+            <a href="index.html">
+                <img src="img/freijómusic_logo_branco.png" alt="logo">
+            </a>
+        </div>
+        <div class="logoweb">
+            <a href="index.html">
+                <img src="img/Freijó-Music-logobranco-final.png" alt="logo">
+            </a>
+        </div>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#">Professores</a></li>
+                <li><a href="#">Ferramentas</a></li>
+                <li><a href="#">Planos</a></li>
+            </ul>
+
+             <div class="button_header">
+                 <div class="entrar">
+                    <button onclick="navigateTo('index_login.html')" >Entrar</button>
+                 </div>
+             </div>
+    </header>
+
+
+    <main>
+        
+
+        <div class="formulary">
+            
+            <form action="Cadastrar" id="formulario_register">
+                <h1>Cadastre-se</h1>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu Nome" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Digite seu E-mail" required>
+                </div>
+        
+                <div class="senha">
+                    <div>
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="pass" placeholder="Digite uma senha" minlength="8" autocomplete="off" required>
+                    </div>
+                    <div class="senha1">
+                        <label for="senha">Confirme a Senha:</label>
+                        <input type="password" name="senha" id="pass2" placeholder="Confirme a Senha" minlength="8" autocomplete="off" required>
+                    </div>
+                </div>
+        
+                <div class="tel-pais">
+                    <div class="tel">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" placeholder="(xx) xxxxx-xxxx" id="telefone"  required>
+                    </div>
+                    <div class="ps">
+                        <label for="pais">País:</label>
+                        <input type="text" placeholder="Ex: Brasil">
+                    </div>
+                </div>
+        
+                <div class="cidade-estado">
+                    <div class="cidade">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" placeholder="Sua Cidade">
+                    </div>
+                    <div class="est">
+                        <label for="estado">Estado:</label>
+                        <select type="estado" id="estado" name="estado" required>
+                            <option value="rn">AC</option>
+                            <option value="rn">AL</option>
+                            <option value="rn">AP</option>
+                            <option value="rn">AM</option>
+                            <option value="rn">BA</option>
+                            <option value="rn">CE</option>
+                            <option value="rn">DF</option>
+                            <option value="rn">ES</option>
+                            <option value="rn">GO</option>
+                            <option value="rn">MA</option>
+                            <option value="rn">MT</option>
+                            <option value="rn">MS</option>
+                            <option value="rn">MG</option>
+                            <option value="rn">PA</option>
+                            <option value="rn">PB</option>
+                            <option value="rn">PR</option>
+                            <option value="rn">PE</option>
+                            <option value="rn">PI</option>
+                            <option value="rn">RJ</option>
+                            <option value="rn">RN</option>
+                            <option value="rn">RS</option>
+                            <option value="rn">RO</option>
+                            <option value="rn">RR</option>
+                            <option value="rn">SC</option>
+                            <option value="rn">SP</option>
+                            <option value="rn">SE</option>
+                            <option value="rn">TO</option>
+                
+                        </select>
+                    </div>
+                </div>
+
+                <div class="formbutton">
+                    <button>Cadastrar</button>
+                </div>
+        
+                
+                <div class="at">
+                    <p>ATENÇÃO: Seu E-mail e Senha informados Serão utilizados Para realizar Login na Plataforma.</p>
+                </div>
+    
+            </form>
+ 
+        </div>
+    
+
+    
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <footer id="footer">
+        <div class="footer-container">
+            <img src="img/freijómusic_logo_branco.png">
+    
+            <div class="sobre">
+                <li><a href="">Aviso Legal</a></li>
+                <li><a href="">Políticas de Privacidade</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Ajuda</a></li>
+             </div>
+    
+             <div class="redes-sociais">
+                <h2>ACOMPANHE NOSSAS REDES SOCIAIS:</h2>
+                <img src="img/whatsapp.png">
+                <img src="img/instagram.png">
+                <img src="img/facebook.png">
+                <img src="img/twitter.png">
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/function.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

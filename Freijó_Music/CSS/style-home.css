@@ -1,0 +1,54 @@
+.imghome{
+    max-width: 1820px;
+}
+.imghome img{
+    max-width: 1920px;
+    width: 100%;
+}
+
+
+.sec1{
+    display: flex;
+    padding: 100px;
+}
+
+.sec1_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(250, 193, 46);
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sec1_1 button{
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.circle img{
+    width: 130px;
+}
+
+.baixoukelele{
+    display: flex;
+}
+.guitarraviolao{
+    display: flex;
+}

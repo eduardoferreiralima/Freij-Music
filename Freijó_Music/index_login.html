@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style-formulary.css">
+    <title>Freijó Music</title>
+
+</head>
+<body>
+    <header>
+        <div class="flex_cont">
+            <a href="index.html"><img src="img/Freijó-Music-logobranco-final.png" alt="logo"></a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#">Professores</a></li>
+                <li><a href="#">Ferramentas</a></li>
+                <li><a href="#">Planos</a></li>
+            </ul>
+
+            <div class="button_header">
+                <div class="cadastro">
+                    <button onclick="navigateTo('index_cadastro.html')" >Matricule-se</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="formulary">
+            <form id="formulario_login" method="post" action="login">
+                <h1>Login</h1>
+                <div class="login">
+                    <div class="emaillog">
+                        <label for="email">E-mail:</label>
+                        <input type="email" placeholder="Digite o E-mail" id="emaillogin" required>
+                    </div>
+                    <div class="senhalog">
+                        <label for="senha">Senha:</label>
+                        <input type="password" placeholder="Digite a Senha" id="senha" required>
+                    </div>
+                    <div class="senhaesquecida">
+                        <div class="lembrarsenha">
+                            <input type="checkbox">
+                            <label for="">Lembrar-me</label>
+                        </div>
+                        <a href="#">Esqueceu a Senha?</a>
+                    </div>
+
+
+                </div>
+
+                <div class="formbutton">
+                    <button>Entrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="footer-container">
+            <img src="img/freijómusic_logo_branco.png">
+
+            <div class="sobre">
+                <li><a href="">Aviso Legal</a></li>
+                <li><a href="">Políticas de Privacidade</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Ajuda</a></li>
+            </div>
+
+            <div class="redes-sociais">
+                <h2>ACOMPANHE NOSSAS REDES SOCIAIS:</h2>
+                <img src="img/whatsapp.png">
+                <img src="img/instagram.png">
+                <img src="img/facebook.png">
+                <img src="img/twitter.png">
+            </div>
+        </div>
+    </footer>
+    <script src="js/function.js"></script>
+</body>
+</html>

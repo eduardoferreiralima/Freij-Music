@@ -1,0 +1,193 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    width: auto;
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+header {  /*Estilos de Cabeçalho*/
+    background-color: black;
+    height: 150px;
+    border-bottom: 1px solid #ccc;
+}
+
+header img {
+    height: 150px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: -180px;
+}
+
+header li {
+    display: flex;
+    margin-right: 20px;
+}
+
+header li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header li a:hover {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+
+header .button_header {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    right: 25px;
+
+}
+
+
+header .cadastro button,
+header .entrar button {
+    background-color: rgb(250, 193, 46);
+    border-radius: 10px;
+    margin-left: 15px;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header .entrar button:hover,
+header .cadastro button:hover {
+    opacity: 0.9;
+    box
+}
+header button a{
+    text-decoration: none;
+}
+
+.flex_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+        margin-left: 10px;
+    }
+
+    header ul {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    header li {
+        margin: 10px 0;
+    }
+
+    header .button_header {
+        position: static;
+        margin-top: 10px;
+    }
+
+    header .cadastro button,
+    header .entrar button {
+        width: 80px;
+    } 
+}
+
+
+.main-home{
+    max-width: 1400px;
+    height: 900px;
+    background-image: url(img/img_violão.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+p{
+    color: aliceblue;
+}
+
+
+
+
+
+#footer{ 
+    display: block;
+    background-color: black;
+    height: 300px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    opacity: 1;
+    transition: opacity 1s;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container img{
+    position: relative;
+    max-width: 350px;
+}
+
+.sobre li a{
+    font-size: 20px;
+}
+
+.sobre{
+    display: flex;
+    position: relative;
+}
+.sobre li a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.sobre li a:hover {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+.redes-sociais{
+    position: relative;
+    right: 25px;
+}
+
+.redes-sociais img{
+    position: relative;
+    width: 99px;
+    left: 0;
+}
+.redes-sociais h2{
+    font-size: 20px;
+}
+
+footer h2{
+    color: white;
+    font-size:small;
+}
+
+footer li a{
+    text-decoration: none;
+}
+
+.footer_align{
+    display: inline;
+}
+

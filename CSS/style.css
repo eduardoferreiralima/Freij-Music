@@ -1,0 +1,263 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    width: auto;
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+header {  /*Estilos de Cabeçalho*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logomobile{
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.logoweb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logomobile img{
+   width: 100px;
+
+}
+.logoweb img{
+    width: 250px;
+}
+
+
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: -180px;
+}
+
+header li {
+    display: flex;
+    margin-right: 20px;
+}
+
+header li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header li a:hover {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+
+header .button_header {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    right: 25px;
+
+}
+
+
+header .cadastro button,
+header .entrar button {
+    background-color: rgb(250, 193, 46);
+    border-radius: 10px;
+    margin-left: 15px;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header .entrar button:hover,
+header .cadastro button:hover {
+    opacity: 0.9;
+}
+
+p{
+    color: aliceblue;
+}
+
+
+#footer{ 
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    height: 300px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    animation-name: slideIn;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes slideIn { 
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container img{
+    position: relative;
+    max-width: 350px;
+}
+
+.sobre li a{
+    font-size: 20px;
+}
+
+.sobre{
+    display: flex;
+    position: relative;
+}
+.sobre li a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.sobre li a:hover {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+.redes-sociais{
+    position: relative;
+    right: 25px;
+}
+
+.redes-sociais img{
+    position: relative;
+    width: 99px;
+    left: 0;
+}
+.redes-sociais h2{
+    font-size: 20px;
+}
+
+footer h2{
+    color: white;
+    font-size:small;
+}
+
+footer li a{
+    text-decoration: none;
+}
+
+.footer_align{
+    display: inline;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .sec1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start;
+        height: 1200px;
+    }
+    .sec1_2{
+        display: block;
+    }
+    .planos {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2{
+        height: 100px;
+    }
+
+    #footer{
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+    }
+
+    .footer-container img{
+        display: none;
+    }
+    .redes-sociais{
+        display: none;
+    }
+    .baixoukelele{
+        display: block;
+    }
+    .guitarraviolao{
+        display: block;
+    }
+
+    #jshover1,
+    #jshover2,
+    #jshover3,
+    #jshover4{
+        display: none;
+        justify-content: center;
+        position: fixed;
+        background-color: aliceblue;
+        border-radius: 20px;
+        width: 350px;
+        height: 150px;
+    }
+    #jshover1{/*Baixo*/
+        top: 250px;
+        left: 300px;
+    }
+    #jshover2{
+        top: 820px;
+        left: 300px;
+    }
+    #jshover3{/*Guitarra*/
+        top: 630px;
+        left: 300px;
+    }
+    #jshover4{/*UKULELE*/
+        top: 430px;
+        left: 300px;
+    }
+
+    .logoweb{
+        display: none;
+    }
+    .logomobile{
+        display: flex;
+    }
+
+    
+    header ul{
+        display: none;
+    }
+
+}
+

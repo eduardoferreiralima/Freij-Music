@@ -1,0 +1,239 @@
+.imghome{
+    max-width: 1820px;
+}
+.imghome img{
+    max-width: 1920px;
+    width: 100%;
+}
+
+
+.main-home{
+    width: auto;
+    background-image: url(img/img_violão.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.sec2{
+    width: auto;
+    background-image: url(img/pexels-cottonbro-studio-4090165.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+
+.sec1{
+    display: flex;
+    padding: 100px;
+    height: 650px;
+}
+.sec2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 900px;
+}
+
+.sec1_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(250, 193, 46);
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sec1_1 button{
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.circle img{
+    width: 110px;
+}
+
+.circle button{
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 150px;
+
+}
+
+.baixoukelele{
+    display: flex;
+}
+.guitarraviolao{
+    display: flex;
+}
+
+#jshover1,
+#jshover2,
+#jshover3,
+#jshover4{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 350px;
+    height: 150px;
+}
+
+#jshover1 p,
+#jshover2 p,
+#jshover3 p,
+#jshover4 p{
+    color: black;
+    text-align:justify;
+    margin: 20px;
+}
+#jshover1{
+    display: none;
+    top: 200px;
+    left: 800px;
+}
+#jshover2{
+    display: none;
+    top: 430px;
+    left: 1400px;
+}
+#jshover3{
+    display: none;
+    top: 430px;
+    left: 800px;
+}
+#jshover4{
+    display: none;
+    top: 200px;
+    left: 1400px;
+}
+
+
+.baixo,
+.ukulele,
+.violao,
+.guitarra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+.nom {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 600px;
+}
+
+.sec1_2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 700px;
+    height: 420px;
+}
+
+
+
+.planos{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.sec2 h1{
+    color:aliceblue;
+}
+.sec2 h2{
+    color: rgb(250, 193, 46);
+}
+.planos{
+    display: flex;
+}
+.plano1,
+.plano2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campoamarelo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(250, 193, 46);
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+}
+
+.value p{
+    color:black;
+}
+
+.promomensal,
+.promoanual{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: aliceblue;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+}
+.promomensal h1,
+.promoanual h1{
+    color: black;
+}
+
+.promomensal li,
+.promoanual li{
+    text-align: start;
+    margin-left:30px;
+}
+
+.promomensal button,
+.promoanual button{
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 55px;
+}
+
+

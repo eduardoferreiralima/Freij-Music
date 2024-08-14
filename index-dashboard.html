@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style_video.css">
+    <link rel="stylesheet" href="CSS/style-dropdown.css">
+    <link rel="stylesheet" href="CSS/style-dashboard.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Freijó Music</title>
+
+</head>
+<body>
+    <header>
+        <div class="logomobile">
+            <a href="index.html">
+                <img src="img/freijómusic_logo_branco.png" alt="logo">
+            </a>
+        </div>
+        <div class="logoweb">
+            <a href="index.html">
+                <img src="img/Freijó-Music-logobranco-final.png" alt="logo">
+            </a>
+        </div>
+            <form action="search" method="get">
+                <input type="text" placeholder="Pesquisar...">
+            </form>
+            <div class="perfil">
+                <button id="togglebutton">
+                    <img src="img/freijomusic_logo_yellow.png" alt="image perfil">
+                </button>
+            </div>
+    </header>
+    
+
+    <main>
+            <div class="movies">
+                <h3>Olá Aluno, Seja Bem Vindo à Plataforma Freijó Music</h3>
+                <div class="cont">
+                    <div class="conteudo">
+                        <div class="video">
+                            <span onclick="navigateTo('index-video.html')" class="material-symbols-outlined">
+                                play_arrow
+                                </span>
+                        </div>
+                        <div class="texto">
+                            <h1>Violão Nível 1</h1>
+                            <h2>Conhecendo o Violão</h2>
+                            <h1>Aula 1/5</h1>
+                        </div>
+                    </div>
+                    <div class="conteudo">
+                        <div class="video" >
+                            <span onclick="navigateTo('index-video.html')" class="material-symbols-outlined">
+                                play_arrow
+                                </span>
+                        </div>
+                        <div class="texto">
+                            <h1>Guitarra Nível 1</h1>
+                            <h2>Conhecendo a Guitarra</h2>
+                            <h1>Aula 1/5</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cont">
+                    <div class="conteudo">
+                        <div class="video">
+                            <span onclick="navigateTo('index-video.html')" class="material-symbols-outlined">
+                                play_arrow
+                                </span>
+                        </div>
+                        <div class="texto">
+                            <h1>Baixo Nível 1</h1>
+                            <h2>Conhecendo o Baixo</h2>
+                            <h1>Aula 1/5</h1>
+                        </div>
+                    </div>
+                    <div class="conteudo">
+                        <div  class="video">
+                            <span onclick="navigateTo('index-video.html')" class="material-symbols-outlined">
+                                play_arrow
+                                </span>
+                        </div>
+                        <div class="texto">
+                            <h1>Ukulele Nível 1</h1>
+                            <h2>Conhecendo o Ukulele</h2>
+                            <h1>Aula 1/5</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ultimosassistidos">
+                <h2>Últimos Assistidos</h2>
+                <div class="vd">
+                    <div class="vd1">
+                        <span class="material-symbols-outlined">play_arrow</span>
+
+                    </div>
+                    <div class="vd1">
+                        <span class="material-symbols-outlined">play_arrow</span>
+                    </div>
+                    <div class="vd1">
+                        <span class="material-symbols-outlined">play_arrow</span>
+                    </div>
+                    <div class="vd1">
+                        <span class="material-symbols-outlined">play_arrow</span>
+                    </div>
+                    <div class="vd1">
+                        <span class="material-symbols-outlined">play_arrow</span>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li onclick="navigateTo('')">
+                <span class="material-symbols-outlined">house</span>
+                <a href="#">Início</a>
+            </li>
+            <li onclick="navigateTo('')">
+                <span class="material-symbols-outlined">bookmark</span>
+                <a href="#">Meus Cursos</a>
+            </li>
+            <li onclick="navigateTo('')">
+                <span class="material-symbols-outlined">school</span>
+                <a href="#">Cursos Disponíveis</a>
+            </li>
+            <li onclick="navigateTo('')">
+                <span class="material-symbols-outlined">star</span>
+                <a href="#">Cursos Favoritos</a>
+            </li>
+            <li onclick="navigateTo('')">
+                <span class="material-symbols-outlined">description</span>
+                <a href="#">Cursos em PDF</a>
+            </li>
+            <li onclick="navigateTo('')">
+                <span class="material-symbols-outlined">checklist</span>
+                <a href="#">Simulados</a>
+            </li>
+            <li onclick="navigateTo('')">
+                <span class="material-symbols-outlined">emoji_events</span>
+                <a href="#">Eventos</a>
+            </li>
+            <li onclick="navigateTo('')">
+                <span class="material-symbols-outlined">sms</span>
+                <a href="#">Mensagens</a>
+            </li>
+            <li onclick="navigateTo('')">
+                <span class="material-symbols-outlined">schedule</span>
+                <a href="#">Continue de Onde Parou</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <div class="triangle_dropdown"></div>
+        <div class="dropdownbutton"><button>
+            <span class="material-symbols-outlined">
+                account_circle
+                </span>Minha Conta</div>
+        </button>
+
+        <div class="dropdownbutton"><button>
+                <span class="material-symbols-outlined">
+                    info
+                </span>Informações Pessoais</div>
+        </button>
+
+        <div class="dropdownbutton"><button>
+            <span class="material-symbols-outlined">
+                lock
+                </span>Segurança e Privacidade</div>
+        </button>
+        <div class="dropdownbutton"><button><span class="material-symbols-outlined">
+            barcode
+            </span>Histórico de Cobranças</div></button>
+        <div class="dropdownbutton"><button><span class="material-symbols-outlined">
+            help
+            </span>Ajuda</div></button>
+        <div class="dropdownbutton"><button>
+            <span class="material-symbols-outlined">logout</span>Encerrar Sessão</div>
+        </button> 
+    </div>
+
+    <script src="js/function.js"></script>
+    <script src="JS/script-dropdown.js"></script>
+</body>
+</html>
